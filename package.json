@@ -1,0 +1,38 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Kacper Filas",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.13.1",
+    "@babel/eslint-parser": "^7.13.4",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/plugin-proposal-private-methods": "^7.13.0",
+    "@babel/preset-env": "^7.13.5",
+    "@parcel/optimizer-cssnano": "^2.0.0-nightly.610",
+    "@parcel/optimizer-htmlnano": "^2.0.0-nightly.610",
+    "@parcel/packager-css": "^2.0.0-nightly.610",
+    "@parcel/packager-html": "^2.0.0-nightly.610",
+    "@parcel/transformer-css": "^2.0.0-nightly.610",
+    "@parcel/transformer-html": "^2.0.0-nightly.610",
+    "@parcel/transformer-postcss": "^2.0.0-nightly.610",
+    "@parcel/transformer-posthtml": "^2.0.0-nightly.610",
+    "@parcel/transformer-sass": "^2.0.0-nightly.610",
+    "babel-loader": "^8.2.2",
+    "parcel": "^2.0.0-nightly.608",
+    "postcss": "^8.2.6"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "babel": "^6.23.0",
+    "core-js": "^3.9.0",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.13.7"
+  }
+}
